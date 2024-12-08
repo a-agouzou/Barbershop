@@ -2,7 +2,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 const LocationCard = () => {
   return (
-    <div className="bg-white/10 rounded-xl p-6 flex items-center space-x-6 hover:scale-105">
+    <div className="rounded-xl p-6 flex items-center space-x-6 transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
       <div className="bg-white text-[#49403B] p-4 rounded-lg">
         <IoLocationSharp className="text-5xl" />
       </div>
