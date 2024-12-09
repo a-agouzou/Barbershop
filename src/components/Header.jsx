@@ -1,6 +1,7 @@
 const Header = () => {
   return (
-    <header className="flex justify-between items-center px-4 md:px-12 py-5 w-full fixed top-0 backdrop-blur-sm bg-black/10 z-50">
+    <header className="w-screen fixed top-0 backdrop-blur-sm bg-black/10 z-50">
+      <div className="flex justify-between items-center md:px-12 max-w-screen-2xl w-full py-4 mx-auto">
       <div className="text-white font-bold text-xl md:text-2xl">
         <span className="text-[#FCA95D]">Barber</span>Shop
       </div>
@@ -39,6 +40,7 @@ const Header = () => {
           />
         </svg>
       </button>
+      </div>
     </header>
   );
 };
