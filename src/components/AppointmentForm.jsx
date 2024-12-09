@@ -1,6 +1,6 @@
 const AppointmentForm = () => {
   return (
-    <div className="w-full md:w-[40%] backdrop-blur-sm bg-black/30 rounded-lg p-6 mt-20">
+    <div className="w-full md:w-[40%] backdrop-blur-sm bg-black/30 rounded-lg p-6 mt-20" >
       <h3 className="text-[#FCA95D] text-xl mb-6">Book an Appointment</h3>
       <form className="flex flex-col gap-4">
         <div className="relative">
