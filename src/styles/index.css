@@ -18,3 +18,9 @@ html, body {
 .animate-slide-up {
   animation: slideUp 0.8s ease-out forwards;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
