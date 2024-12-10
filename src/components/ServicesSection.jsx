@@ -34,7 +34,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="bg-[#49403B] w-screen overflow-hidden">
+    <section className="bg-[#49403B] w-screen overflow-hidden" >
       <div className="mx-auto px-6 py-20 lg:py-28 w-screen max-w-screen-2xl">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-16">
           <div className="flex flex-col items-start space-y-8 w-full lg:w-1/2">

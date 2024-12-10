@@ -39,8 +39,8 @@ const PricesSection = () => {
   ];
 
   return (
-    <section className="bg-[#ECE1CD] w-full overflow-hidden">
-      <div className="py-16 px-6 md:px-12 flex flex-col md:flex-row items-start justify-between gap-12 max-w-7xl mx-auto">
+    <section className="bg-[#ECE1CD] w-screen overflow-hidden">
+      <div className="py-16 px-6 md:px-12 flex flex-col md:flex-row items-start justify-between gap-12 w-screen max-w-screen-2xl border mx-auto">
         <div className="flex flex-col items-center justify-center w-full md:w-1/2">
           <div className="bg-[#FCA95D] rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="space-y-6">
