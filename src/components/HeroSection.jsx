@@ -1,6 +1,4 @@
 import AppointmentForm from "./AppointmentForm";
-import { ToastContainer } from "react-toastify";
-import Header from "./Header";
 
 const HeroSection = () => {
   return (
@@ -10,14 +8,14 @@ const HeroSection = () => {
       role="banner"
       aria-label="Hero Section"
     >
-      <Header />
+      {/* <Header /> */}
       <div
         className="absolute inset-0 bg-black opacity-40"
         aria-hidden="true"
       ></div>
       <main className="flex flex-col items-start justify-evenly h-screen w-screen max-w-screen-2xl mx-auto px-4">
         <AppointmentForm />
-        <div className="relative flex flex-col md:flex-row justify-between items-center md:items-start w-full gap-8 mb-12">
+        <div className="relative flex flex-col md:flex-row justify-between items-center md:items-start text-center w-full gap-8 mb-12">
           <h1 className="text-3xl md:text-7xl font-bold text-white leading-tight order-1 md:order-2 md:text-right">
             WHERE TRADITION
             <br />
